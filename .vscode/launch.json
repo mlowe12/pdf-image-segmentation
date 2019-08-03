@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PdfService",
+            "request": "launch",
+            "mainClass": "com.mlowe12.services.pdfservice.PdfService",
+            "projectName": "pdfservice"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoApplication<pdfservice>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.mlowe12.pdfservice.DemoApplication",
+            "projectName": "pdfservice",
+            "args": ""
+        }
+    ]
+}
