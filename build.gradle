@@ -25,7 +25,6 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-amqp'
-	implementation 'org.springframework.boot:spring-boot-starter-security'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
@@ -33,7 +32,6 @@ dependencies {
 	runtimeOnly 'org.postgresql:postgresql'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	testImplementation 'org.springframework.security:spring-security-test'
 	// post project build packages below
 	// https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox
 	compile group: 'org.apache.pdfbox', name: 'pdfbox', version: '2.0.16'
